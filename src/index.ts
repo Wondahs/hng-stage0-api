@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 
 // Enable CORS
 app.use(cors());
+app.set('json spaces', 2);
 
 // Interface for our response
 interface InfoResponse {
